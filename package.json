@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firmata": "^2.3.0",
+    "johnny-five": "^2.1.0",
+    "node-gyp": "^8.4.1",
+    "serialport": "^9.2.0"
+  }
+}
