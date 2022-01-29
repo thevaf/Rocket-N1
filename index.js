@@ -3,7 +3,6 @@ const board = new five.Board()
 const firmata = require("firmata")
 const newfirmata = new firmata
 board.on("ready", () => {
-   
     const gps = new five.GPS({pins: {rx: 11, tx: 10}})
     const servo1 = new five.Servo({pin: 10, center: true})
     const servo2 = new five.Servo({pin: 11, center: true})
